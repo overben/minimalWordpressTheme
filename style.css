@@ -4,3 +4,26 @@
   Author: Yassin Ben;
   Description: Minimal Theme based on Dribble;
  */
+ @import url('css/bare.min.css');
+ @import url('css/normalize.css');
+
+.noPaddingTop{
+	padding-top: 0 !important;
+}
+
+.post_text{
+	position: relative;
+	z-index: 2;
+	text-align: center;
+	height: 0;
+}
+
+.post_image{
+	position: relative;
+	z-index: -1;
+}
+
+.post_category{
+	display: block;
+	margin-top: -200px;
+}
